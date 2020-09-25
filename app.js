@@ -55,7 +55,7 @@ guessBtn.addEventListener('click', function() {
             guessInput.value = '';
 
             //Tell user its the wrong number
-            setMessage(`${guess} is not correct, ${guessesLeft} guesses left`, 'red')
+            setMessage(`${guess} is not correct, ${guessesLeft} guesses left`, 'red');
         }
     }
 });
